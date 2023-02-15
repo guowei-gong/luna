@@ -1,0 +1,9 @@
+---
+title: "友情链接"
+date: 2021-08-23T15:26:35+08:00
+layout: "links"
+---
+
+#### 常用网站
+
+{{< link url="https://github.com/" image="github.png" title="GitHub" desc="some desc text..." >}}
