@@ -39,6 +39,12 @@ jobs:
             - name: Build Hugo
               run: echo "HUGO_VERSION -> $HUGO_VERSION" && hugo --gc --minify --cleanDestinationDir
 
+            # 创建 CNAME
+            - user: "guowei-gong/guowei-gong.github.io@main"
+              env:
+                FILE_NAME: "./CNAME"
+                FILE_DATA: "gongguowei.com"
+
             - name: Hugo-Encrypt
               run: cd themes/hugo-theme-luna && node ./hugo-encrypt.js
 
