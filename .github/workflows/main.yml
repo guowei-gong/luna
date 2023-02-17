@@ -41,9 +41,9 @@ jobs:
 
             # 创建 CNAME
             - name: Create CNAME
-              uses: "guowei-gong/guowei-gong.github.io@main"
+              uses: "guowei-gong/luna@main"
               env:
-                FILE_NAME: "./CNAME"
+                FILE_NAME: "./public/CNAME"
                 FILE_DATA: "gongguowei.com"
 
             - name: Hugo-Encrypt
