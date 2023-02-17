@@ -3,7 +3,7 @@ title: 移除链表中的元素为何需要一个 head 的副本
 date: 2022-11-14 12:10:30
 ---
 
-> Problem: [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/)
+> [203. 移除链表元素](https://leetcode.cn/problems/remove-linked-list-elements/description/)
 
 使用 cur 后，实现了遍历 head ，并且不会修改 head 的元素。
 
