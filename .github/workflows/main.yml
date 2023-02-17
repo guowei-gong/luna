@@ -40,7 +40,8 @@ jobs:
               run: echo "HUGO_VERSION -> $HUGO_VERSION" && hugo --gc --minify --cleanDestinationDir
 
             # 创建 CNAME
-            - user: "guowei-gong/guowei-gong.github.io@main"
+            - name: Create CNAME
+              uses: "guowei-gong/guowei-gong.github.io@main"
               env:
                 FILE_NAME: "./CNAME"
                 FILE_DATA: "gongguowei.com"
