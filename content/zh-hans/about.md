@@ -6,7 +6,7 @@ type: page
 comments: false
 ---
 
-# About me
+# 关于我
 
 Some introductions...
 

@@ -1,7 +1,7 @@
 baseURL = "https://gongguowei.com/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
-title = "Hugo Theme Luna"
+title = "1024 CORES"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "hugo-theme-luna"
@@ -10,7 +10,7 @@ timeZone = "Asia/Shanghai"
 enableGitInfo = false
 hasCJKLanguage = true
 paginate = 10
-summaryLength = 70
+summaryLength = 50
 canonifyURLs = false
 relativeURLs = false
 staticDir = ["static"]
@@ -20,7 +20,7 @@ posts = "/:year/:month/:day/:slug.html"
 pages = "/:slug.html"
 
 [author]
-name = "Ice-Hazymoon"
+name = "龚国玮"
 
 [frontmatter]
 lastmod = [":git", "lastmod", ":fileModTime", "date", "publishDate", ":default"]
@@ -244,15 +244,15 @@ enabled = true
 provider = "giscus"
 
 [params.comments.giscus]
-repo = "Ice-Hazymoon/hugo-theme-luna"
-repoID = "R_kgDOHQOwYw"
-category = "Comments"
-categoryID = "DIC_kwDOHQOwY84CP0Sy"
+repo = "guowei-gong/luna-comments"
+repoID = "R_kgDOI-EiuQ"
+category = "Announcements"
+categoryID = "DIC_kwDOI-Eiuc4CUORj"
 mapping = "title"
 reactionsEnabled = 1
 emitMetadata = 0
 lazy = false
-lang = "en"
+lang = "zh-CN"
 
 [params.rss]
 enabled = false
@@ -365,10 +365,10 @@ enabled = true
 provider = "giscus"
 
 [languages.zh-cn.params.comments.giscus]
-repo = "Ice-Hazymoon/hugo-theme-luna"
-repoID = "R_kgDOHQOwYw"
-category = "Comments"
-categoryID = "DIC_kwDOHQOwY84CP0Sy"
+repo = "guowei-gong/luna-comments"
+repoID = "R_kgDOI-EiuQ"
+category = "Announcements"
+categoryID = "DIC_kwDOI-Eiuc4CUORj"
 mapping = "title"
 reactionsEnabled = 1
 emitMetadata = 0
